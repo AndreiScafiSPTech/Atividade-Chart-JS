@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .7);
+    background-image: url('./image/BackgroundWYNN.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Playfair Display", serif;
+    color: white;
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, .7);
+    font-weight: 400;
+}
+
+.principal {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dashboard {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    height: 60%;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+}
+
+.grafico {
+    width: 45%;
+}
+
+.linha-vertical {
+    width: 3px;
+    height: 80%;
+    background-color: white;
+}
+
+canvas {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
